@@ -8,6 +8,7 @@ public class Main {
     }
     public static void task1 () {
         byte clientOS = 0;
+        System.out.println("Задача 1");
         if (clientOS == 0) {
             System.out.println("Установите версию приложения для iOS по ссылке");
         }
@@ -17,7 +18,8 @@ public class Main {
     public static void task2 () {
         byte clientOS = 1;
         int clientDeviceYear = 2015;
-
+        System.out.println();
+        System.out.println("Задача 2");
         if (clientOS == 0 && clientDeviceYear < 2015) {
             System.out.println("Установите облегченную версию приложения для iOS по ссылке");
         }
@@ -33,6 +35,8 @@ public class Main {
     }
     public static void task3 () {
     int year = 2021;
+        System.out.println();
+        System.out.println("Задача 3");
     if (year % 4 == 0 )
         if (year % 100 == 0)
             if (year % 400 == 0) {
@@ -51,6 +55,8 @@ public class Main {
     public static void task4 () {
     int deliveryDistance = 105;
     byte deliveryTime;
+        System.out.println();
+        System.out.println("Задача 4");
     if (deliveryDistance > 100)
     {System.out.println("Свыше 100 км доставки нет");}
         else if (deliveryDistance > 60) {
@@ -65,7 +71,8 @@ public class Main {
 
     public static void task5 () {
     byte monthNumber = 7;
-
+        System.out.println();
+        System.out.println("Задача 5");
     switch (monthNumber) {
         case 1:
         case 2:
